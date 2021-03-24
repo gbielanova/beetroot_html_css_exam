@@ -1,0 +1,26 @@
+.form {
+  background-color: $colorWhite;
+
+  &__input {
+    width: 500px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: $colorWhite;
+    text-align: center;
+    padding: 10px;
+
+    &::placeholder {
+      color: $colorPlaceholder;
+      font-family: $josef;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+      letter-spacing: 2.8px;
+    }
+
+    &:focus {
+      box-shadow: inset 0 0 10px $colorSelect;
+    }
+  }
+}

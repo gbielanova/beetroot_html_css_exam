@@ -8,30 +8,29 @@
       src="https://kit.fontawesome.com/7e9a77bb62.js"
       crossorigin="anonymous"
     ></script>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>HTML/CSS exam project</title>
   </head>
   <body class="bhrm">
     <header class="main-page page">
-      <h1 class="main-page__header">Bhromaon</h1>
-      <h2 class="main-page__description">Safe Travel Anywhere</h2>
+      <div>
+        <h1 class="main-page__header">Bhromaon</h1>
+        <h2 class="main-page__description">Safe Travel Anywhere</h2>
+      </div>
 
       <form action="#" method="GET" class="main-page__form">
-        <div class="form__fld">
+        <div class="form">
           <input
             class="form__input"
-            minlength="20"
+            minlength="3"
+            maxlength="30"
             type="text"
             name="search_text"
-            id="search_text"
+            placeholder="Search Your Travel Destination"
           />
           <button type="submit" class="form__btn btn">
-            Search<i class="fas fa-search"></i>
+            Search<i class="fas fa-search btn__icon"></i>
           </button>
         </div>
       </form>
@@ -40,41 +39,41 @@
         <p class="scroll__text">Scroll Down</p>
         <i class="fas fa-chevron-down"></i>
       </div>
-
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
-        <a class="navbar-brand logo d-flex justify-content-between" href="#"
-          >Bhromaon</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link text-center" href="#">Who We Are</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-center" href="#">What We Do</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-center" href="#">Travel With Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-center" href="#">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
     </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+      <a class="navbar-brand logo d-flex justify-content-between" href="#"
+        >Bhromaon</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-center" href="#">Who We Are</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="#">What We Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="#">Travel With Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <main class="pages">
       <section class="page page--choose">
@@ -174,21 +173,5 @@
         <i class="fab fa-pinterest"></i>
       </div>
     </footer>
-
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
