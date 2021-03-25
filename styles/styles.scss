@@ -3,30 +3,28 @@
 @import "./primitives";
 @import "./form";
 @import "./main-page";
+@import "./burger";
 
-.navbar {
-  @include flexCenter(row);
-  background-color: $colorBlue;
-  height: 10vh;
-  min-height: 50px;
-
-  &__brand {
-    font-family: $josef;
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 2.4px;
-  }
-
-  &__nav {
-    @include flexCenter(row);
-    list-style-type: none;
-  }
+.main-page {
+  position: relative;
 }
 
-@media only screen and (max-width: 767px) {
-  .navbar {
-    &__nav {
-      display: none;
-    }
-  }
+.navigation {
+  position: absolute;
+  min-height: 100px;
+  height: 10vh;
+  width: 100%;
+  bottom: 0;
+  background: $colorBlue;
+}
+
+.navbar__input {
+  display: none;
+}
+
+.navbar__brand {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 6;
 }
