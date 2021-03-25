@@ -7,4 +7,26 @@
 .navbar {
   @include flexCenter(row);
   background-color: $colorBlue;
+  height: 10vh;
+  min-height: 50px;
+
+  &__brand {
+    font-family: $josef;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+  }
+
+  &__nav {
+    @include flexCenter(row);
+    list-style-type: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    &__nav {
+      display: none;
+    }
+  }
 }
