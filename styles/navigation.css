@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans&display=swap");
 .btn {
   background-color: #5474fd;
-  border: 2px solid #ffffff;
   color: #ffffff;
   font-family: "Aleo", serif;
   font-size: 14px;
@@ -10,6 +9,7 @@
   letter-spacing: 1.4px;
   padding: 20px 30px;
   outline: none;
+  border: none;
 }
 
 .btn:hover {

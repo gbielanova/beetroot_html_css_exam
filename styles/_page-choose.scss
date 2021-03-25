@@ -1,0 +1,20 @@
+.page--choose {
+  @include page-style(url(../img/bg2.png));
+  min-height: 550px;
+  height: 70vh;
+  @include flexCenter(row);
+}
+
+@media only screen and (max-width: 1023px) {
+  .page {
+    flex-direction: column;
+
+    &__content {
+      width: 90%;
+    }
+
+    &__imgs {
+      display: none;
+    }
+  }
+}

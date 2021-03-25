@@ -1,6 +1,5 @@
 .btn {
   background-color: $colorBlue;
-  border: 2px solid $colorWhite;
   color: $colorWhite;
   font-family: $aleo;
   font-size: 14px;
@@ -9,6 +8,7 @@
   letter-spacing: 1.4px;
   padding: 20px 30px;
   outline: none;
+  border: none;
 
   &:hover {
     color: $colorSelect;

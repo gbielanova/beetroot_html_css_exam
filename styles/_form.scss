@@ -5,6 +5,10 @@
   display: flex;
   justify-content: space-between;
 
+  &__btn {
+    border: 2px solid $colorWhite;
+  }
+
   &__input {
     border: none;
     outline: none;
@@ -35,9 +39,3 @@
     min-height: 80px;
   }
 }
-
-// @media only screen and (min-width: 480px) and (max-width: 767px){ ... }
-
-// @media only screen and (min-width: 768px) and (max-width: 991px){ ... }
-
-// @media only screen and (min-width: 992px){ ... }

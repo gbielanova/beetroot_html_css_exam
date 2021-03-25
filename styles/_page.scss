@@ -1,0 +1,43 @@
+.page {
+  &__content {
+    @include flexCenter(column);
+    align-items: flex-start;
+    padding: 0 5%;
+    height: 60%;
+    width: 60%;
+    margin-left: 5%;
+  }
+
+  &__header {
+    color: $colorWhite;
+    font-family: $aleo;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  &__description {
+    color: $colorGrey;
+    font-family: $josef;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    text-align: left;
+    padding-bottom: 20px;
+  }
+
+  &__imgs {
+    width: 40%;
+    height: 65%;
+    @include flexCenter(column);
+    margin-right: 10%;
+  }
+
+  &__photo {
+    height: 50%;
+  }
+
+  &__photo--2 {
+    margin-left: 20%;
+  }
+}

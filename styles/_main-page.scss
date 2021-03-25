@@ -3,6 +3,7 @@
   min-height: 320px + 100px;
   height: 80vh;
   @include flexCenter();
+  padding-top: 10%;
 
   &__header {
     color: $colorWhite;

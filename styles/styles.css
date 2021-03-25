@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans&display=swap");
 .btn {
   background-color: #5474fd;
-  border: 2px solid #ffffff;
   color: #ffffff;
   font-family: "Aleo", serif;
   font-size: 14px;
@@ -10,6 +9,7 @@
   letter-spacing: 1.4px;
   padding: 20px 30px;
   outline: none;
+  border: none;
 }
 
 .btn:hover {
@@ -58,6 +58,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.form__btn {
+  border: 2px solid #ffffff;
 }
 
 .form__input {
@@ -127,7 +131,6 @@
   background-image: url(../img/bg1.png);
   background-position: top;
   background-size: cover;
-  padding-top: 10%;
   min-height: 420px;
   height: 80vh;
   display: -webkit-box;
@@ -144,6 +147,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-top: 10%;
 }
 
 .main-page__header {
@@ -170,5 +174,112 @@
   font-weight: 400;
   letter-spacing: 2.8px;
   margin-bottom: 100px;
+}
+
+.page__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0 5%;
+  height: 60%;
+  width: 60%;
+  margin-left: 5%;
+}
+
+.page__header {
+  color: #ffffff;
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.page__description {
+  color: #e8e8e8;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.page__imgs {
+  width: 40%;
+  height: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 10%;
+}
+
+.page__photo {
+  height: 50%;
+}
+
+.page__photo--2 {
+  margin-left: 20%;
+}
+
+.page--choose {
+  background-image: url(../img/bg2.png);
+  background-position: top;
+  background-size: cover;
+  min-height: 550px;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media only screen and (max-width: 1023px) {
+  .page {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .page__content {
+    width: 90%;
+  }
+  .page__imgs {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
