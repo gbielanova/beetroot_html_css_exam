@@ -1,14 +1,17 @@
 .form {
   background-color: $colorWhite;
+  width: 70vw;
+  min-width: 200px;
+  display: flex;
+  justify-content: space-between;
 
   &__input {
-    width: 500px;
-    height: 100%;
     border: none;
     outline: none;
     background-color: $colorWhite;
     text-align: center;
     padding: 10px;
+    flex-grow: 1;
 
     &::placeholder {
       color: $colorPlaceholder;
@@ -24,3 +27,17 @@
     }
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .form {
+    flex-direction: column;
+    height: 15vh;
+    min-height: 80px;
+  }
+}
+
+// @media only screen and (min-width: 480px) and (max-width: 767px){ ... }
+
+// @media only screen and (min-width: 768px) and (max-width: 991px){ ... }
+
+// @media only screen and (min-width: 992px){ ... }

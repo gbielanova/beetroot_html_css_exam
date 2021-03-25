@@ -1,40 +1,10 @@
 @import "./variables";
 @import "./mixins";
-@import "./form";
 @import "./primitives";
+@import "./form";
+@import "./main-page";
 
-.main-page {
-  // Background styles
-  background-image: url(../img/bg1.png);
-  background-position: top;
-  background-size: cover;
-  // Size
-  min-height: 70vh;
-  // Positioning
-  @include flexCenter();
-
-  &__header {
-    color: $colorWhite;
-    font-family: $josef;
-    font-size: 48px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 4.8px;
-  }
-
-  &__description {
-    color: $colorWhite;
-    font-family: $josef;
-    font-size: 22px;
-    font-weight: 400;
-    letter-spacing: 6.82px;
-  }
-
-  &__scroll {
-    color: $colorWhite;
-    font-family: $josef;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2.8px;
-  }
+.navbar {
+  @include flexCenter(row);
+  background-color: $colorBlue;
 }

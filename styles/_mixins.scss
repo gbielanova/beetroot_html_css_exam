@@ -5,3 +5,10 @@
   text-align: center;
   flex-direction: $direction;
 }
+
+@mixin page-style($url) {
+  background-image: $url;
+  background-position: top;
+  background-size: cover;
+  padding-top: 10%;
+}

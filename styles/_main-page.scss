@@ -1,0 +1,31 @@
+.main-page {
+  @include page-style(url(../img/bg1.png));
+  min-height: 300px;
+  height: 70vh;
+  @include flexCenter();
+
+  &__header {
+    color: $colorWhite;
+    font-family: $josef;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+  }
+
+  &__description {
+    color: $colorWhite;
+    font-family: $josef;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 6.82px;
+  }
+
+  &__scroll {
+    color: $colorWhite;
+    font-family: $josef;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.8px;
+  }
+}
