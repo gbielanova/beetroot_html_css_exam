@@ -3,28 +3,3 @@
 @import "./primitives";
 @import "./form";
 @import "./main-page";
-@import "./burger";
-
-.main-page {
-  position: relative;
-}
-
-.navigation {
-  position: absolute;
-  min-height: 100px;
-  height: 10vh;
-  width: 100%;
-  bottom: 0;
-  background: $colorBlue;
-}
-
-.navbar__input {
-  display: none;
-}
-
-.navbar__brand {
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  z-index: 6;
-}
