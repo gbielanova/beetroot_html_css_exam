@@ -2,6 +2,20 @@
 @import "./mixins";
 @import "./primitives";
 
+.nav-block {
+  @include flexCenter(row);
+  justify-content: space-around;
+  background-color: $colorBlue;
+}
+
+.topnav a:first-child {
+  display: none;
+}
+
+.nav-block__lnk {
+  background-color: $colorBlue;
+}
+
 .topnav {
   overflow: hidden;
   background-color: $colorBlue;
@@ -16,9 +30,22 @@
 .topnav .icon {
   display: none;
   color: $colorWhite;
+  font-size: 25px;
 }
 
 @media only screen and (max-width: 1023px) {
+  .nav-block__lnk {
+    display: none;
+  }
+
+  .topnav {
+    width: 100%;
+  }
+
+  .topnav a:first-child {
+    display: block;
+  }
+
   .topnav a:not(:first-child) {
     display: none;
   }

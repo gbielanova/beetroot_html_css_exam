@@ -1,7 +1,7 @@
 .main-page {
   @include page-style(url(../img/bg1.png));
   min-height: 320px;
-  height: 100vh;
+  height: 50vh;
   @include flexCenter();
   padding: 15% 0;
 
