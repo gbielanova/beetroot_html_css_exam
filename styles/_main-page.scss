@@ -1,9 +1,9 @@
 .main-page {
   @include page-style(url(../img/bg1.png));
-  min-height: 320px + 100px;
-  height: 80vh;
+  min-height: 320px;
+  height: 100vh;
   @include flexCenter();
-  padding-top: 10%;
+  padding: 15% 0;
 
   &__header {
     color: $colorWhite;
@@ -22,12 +22,12 @@
     letter-spacing: 6.82px;
   }
 
-  &__scroll {
+  .main-page__scroll {
     color: $colorWhite;
     font-family: $josef;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2.8px;
-    margin-bottom: 100px;
+    text-transform: none;
   }
 }

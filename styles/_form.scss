@@ -4,9 +4,12 @@
   min-width: 200px;
   display: flex;
   justify-content: space-between;
+  margin: 10% 0;
 
-  &__btn {
+  // Had to increase specifity here since btn styles overwritted it
+  .form__btn {
     border: 2px solid $colorWhite;
+    background: $colorBlue;
   }
 
   &__input {
