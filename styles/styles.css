@@ -869,6 +869,7 @@
   background-size: cover;
   width: 40%;
   height: 100%;
+  min-height: 343px;
 }
 
 .review-block__texts {

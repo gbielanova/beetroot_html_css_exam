@@ -14,6 +14,8 @@
     @include page-style(url(../img/photo3.png));
     width: 40%;
     height: 100%;
+    // fallback for IE
+    min-height: 343px;
   }
 
   &__texts {
