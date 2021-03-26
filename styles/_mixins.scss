@@ -4,6 +4,7 @@
   align-items: center;
   text-align: center;
   flex-direction: $direction;
+  flex: 0 0 auto;
 }
 
 @mixin page-style($url) {
