@@ -551,7 +551,6 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  height: 100%;
   width: 50%;
   padding: 5%;
 }
