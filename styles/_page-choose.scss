@@ -1,0 +1,51 @@
+.page--choose {
+  @include page-style(url(../img/bg2.png));
+  height: 80vh;
+  @include flexCenter(row);
+}
+
+.page__content {
+  @include flexCenter(column);
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 100%;
+  width: 50%;
+  padding: 5%;
+}
+
+.page__imgs {
+  @include flexCenter(column);
+  height: 100%;
+  min-height: 400px;
+  width: 50%;
+}
+
+.page__photo {
+  @include flexCenter(column);
+  width: 70%;
+  height: 50%;
+}
+
+.page__photo--1 {
+  @include page-style(url(../img/photo1.png));
+  align-self: flex-start;
+}
+
+.page__photo--2 {
+  @include page-style(url(../img/photo2.png));
+  align-self: flex-end;
+}
+
+@media only screen and (max-width: 1023px) {
+  .page--choose {
+    flex-direction: column;
+  }
+
+  .page__content {
+    width: 100%;
+  }
+
+  .page__imgs {
+    display: none;
+  }
+}

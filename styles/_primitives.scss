@@ -7,7 +7,7 @@
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1.4px;
-  padding: 20px 30px;
+  padding: 24px 38px;
   outline: none;
   border: none;
 
@@ -53,4 +53,28 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2.4px;
+}
+
+.page {
+  min-height: 500px;
+  padding: 15% 15%;
+
+  &__header {
+    color: $colorWhite;
+    font-family: $aleo;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
+    margin: 20px 0;
+  }
+
+  &__description {
+    color: $colorGrey;
+    font-family: $josef;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    text-align: left;
+    margin: 20px 0;
+  }
 }

@@ -1,9 +1,7 @@
 .main-page {
   @include page-style(url(../img/bg1.png));
-  min-height: 320px;
-  height: 50vh;
+  height: 100vh;
   @include flexCenter();
-  padding: 15% 0;
 
   &__header {
     color: $colorWhite;
