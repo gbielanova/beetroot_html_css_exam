@@ -85,6 +85,8 @@
 }
 
 .block {
+  // Fallback for IE
+  background-color: $colorCoalFull;
   background-color: $colorCoal;
   min-height: 350px;
   padding: 5% 5%;
