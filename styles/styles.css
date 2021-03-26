@@ -732,6 +732,25 @@
   }
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .icons-transition {
+    display: none;
+  }
+  .icons-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+  }
+  .page__transition {
+    height: 20px;
+    width: 5px;
+    margin: 5px;
+    background-color: #ffffff;
+  }
+}
+
 .page--spain1 {
   background-image: url(../img/bg3.png);
   background-position: top;
