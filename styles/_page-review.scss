@@ -1,0 +1,48 @@
+.page--review {
+  @include page-style(url(../img/bg5.png));
+  height: 80vh;
+  min-height: 800px;
+  @include flexCenter();
+}
+
+.review-block {
+  @include flexCenter(row);
+  width: 80%;
+  background-color: $colorDarkGrey;
+
+  &__photo {
+    @include page-style(url(../img/photo3.png));
+    width: 40%;
+    height: 100%;
+  }
+
+  &__texts {
+    width: 60%;
+    padding: 5%;
+    @include flexCenter(column);
+    align-items: flex-start;
+  }
+
+  .block__description {
+    margin-top: 0;
+  }
+
+  .block__description::before {
+    content: "\00a0\00a0\00a0\00a0\00a0";
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .review-block {
+    flex-direction: column;
+
+    &__photo {
+      display: none;
+    }
+
+    &__texts {
+      width: 100%;
+      padding: 5%;
+    }
+  }
+}

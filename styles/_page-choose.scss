@@ -1,6 +1,6 @@
 .page--choose {
   @include page-style(url(../img/bg2.png));
-  height: 80vh;
+  height: 70vh;
   @include flexCenter(row);
 }
 

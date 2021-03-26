@@ -1,0 +1,25 @@
+.page--spain1 {
+  @include page-style(url(../img/bg3.png));
+  height: 50vh;
+  @include flexCenter(row);
+  justify-content: flex-start;
+}
+
+.page--spain2 {
+  @include page-style(url(../img/bg4.png));
+  height: 50vh;
+  @include flexCenter(row);
+  justify-content: flex-end;
+}
+
+.block {
+  width: 47%;
+  @include flexCenter(column);
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 1023px) {
+  .block {
+    width: 100%;
+  }
+}

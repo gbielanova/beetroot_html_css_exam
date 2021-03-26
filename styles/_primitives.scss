@@ -78,5 +78,54 @@
     letter-spacing: 1.6px;
     text-align: left;
     margin: 20px 0;
+    line-height: 26px;
   }
+}
+
+.block {
+  background-color: $colorCoal;
+  min-height: 350px;
+  padding: 5% 5%;
+
+  &__header {
+    color: $colorGrey;
+    font-family: $josef;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+  }
+
+  &__sub-header {
+    color: $colorGrey;
+    font-family: $josef;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+
+  &__description {
+    color: $colorGrey;
+    font-family: $josef;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 26px;
+    margin: 20px 0;
+  }
+}
+
+.quote {
+  color: $colorBlue;
+}
+
+.social {
+  margin: 0 10px;
+}
+
+.fa-linkedin-in {
+  color: $colorBlue;
 }
