@@ -1,0 +1,61 @@
+.page--flow {
+  min-height: 200px;
+  background-color: $colorDarkGrey;
+  padding: 3% 5%;
+  @include flexCenter(column);
+  position: relative;
+}
+
+.icons-block {
+  @include flexCenter(row);
+  width: 100%;
+  max-width: 900px;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1%;
+}
+
+.icon__text {
+  color: $colorGrey;
+  font-family: $aleo;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.page__icon {
+  background-color: $colorDarkGrey;
+  padding: 10px;
+
+  &--search {
+    color: $colorBlue;
+  }
+
+  &--select {
+    color: $colorSelect;
+  }
+
+  &--like {
+    color: $colorLike;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .icons-transition {
+    display: none;
+  }
+
+  .icons-block {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .page__transition {
+    height: 20px;
+    width: 5px;
+    margin: 5px;
+    background-color: $colorWhite;
+  }
+}
