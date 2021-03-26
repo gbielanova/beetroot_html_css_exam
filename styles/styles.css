@@ -76,6 +76,7 @@
 .page {
   min-height: 600px;
   padding: 15% 15%;
+  max-width: 100%;
 }
 
 .page__header {
@@ -96,12 +97,14 @@
   text-align: left;
   margin: 20px 0;
   line-height: 26px;
+  max-width: 100%;
 }
 
 .block {
   background-color: #232323e0;
   min-height: 350px;
   padding: 5% 5%;
+  width: 100%;
 }
 
 .block__header {
@@ -132,6 +135,7 @@
   text-align: left;
   line-height: 26px;
   margin: 20px 0;
+  max-width: 100%;
 }
 
 .quote {
@@ -339,6 +343,7 @@
 .page {
   min-height: 600px;
   padding: 15% 15%;
+  max-width: 100%;
 }
 
 .page__header {
@@ -359,12 +364,14 @@
   text-align: left;
   margin: 20px 0;
   line-height: 26px;
+  max-width: 100%;
 }
 
 .block {
   background-color: #232323e0;
   min-height: 350px;
   padding: 5% 5%;
+  width: 100%;
 }
 
 .block__header {
@@ -395,6 +402,7 @@
   text-align: left;
   line-height: 26px;
   margin: 20px 0;
+  max-width: 100%;
 }
 
 .quote {
@@ -506,6 +514,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.page__texts-block {
+  max-width: 100%;
 }
 
 .page__content {

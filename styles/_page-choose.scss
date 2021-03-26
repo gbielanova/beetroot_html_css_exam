@@ -4,6 +4,10 @@
   @include flexCenter(row);
 }
 
+.page__texts-block {
+  max-width: 100%;
+}
+
 .page__content {
   @include flexCenter(column);
   justify-content: space-evenly;

@@ -60,6 +60,7 @@
 .page {
   min-height: 600px;
   padding: 15% 15%;
+  max-width: 100%;
 
   &__header {
     color: $colorWhite;
@@ -79,6 +80,7 @@
     text-align: left;
     margin: 20px 0;
     line-height: 26px;
+    max-width: 100%;
   }
 }
 
@@ -86,6 +88,7 @@
   background-color: $colorCoal;
   min-height: 350px;
   padding: 5% 5%;
+  width: 100%;
 
   &__header {
     color: $colorGrey;
@@ -115,6 +118,7 @@
     text-align: left;
     line-height: 26px;
     margin: 20px 0;
+    max-width: 100%;
   }
 }
 
