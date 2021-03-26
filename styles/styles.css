@@ -147,6 +147,11 @@
   margin: 0 10px;
 }
 
+.social:hover {
+  color: #ff6363;
+  cursor: pointer;
+}
+
 .fa-linkedin-in {
   color: #5474fd;
 }
@@ -416,6 +421,11 @@
 
 .social {
   margin: 0 10px;
+}
+
+.social:hover {
+  color: #ff6363;
+  cursor: pointer;
 }
 
 .fa-linkedin-in {

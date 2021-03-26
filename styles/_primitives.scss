@@ -130,6 +130,11 @@
 
 .social {
   margin: 0 10px;
+
+  &:hover {
+    color: $colorSelect;
+    cursor: pointer;
+  }
 }
 
 .fa-linkedin-in {
