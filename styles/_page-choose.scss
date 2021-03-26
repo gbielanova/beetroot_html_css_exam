@@ -39,6 +39,8 @@
 @media only screen and (max-width: 1023px) {
   .page--choose {
     flex-direction: column;
+    height: 80vh;
+    min-height: 750px;
   }
 
   .page__content {

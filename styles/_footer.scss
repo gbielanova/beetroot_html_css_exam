@@ -1,0 +1,29 @@
+.footer {
+  min-height: 200px;
+  background-color: $colorCoalFull;
+  padding: 3% 5%;
+  @include flexCenter(column);
+
+  &__logo {
+    color: $colorWhite;
+    font-family: $josef;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.36px;
+    margin-top: 50px;
+  }
+
+  &__description {
+    color: $colorWhite;
+    font-family: $josef;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    margin: 20px 0;
+  }
+
+  &__socials {
+    color: $colorWhite;
+  }
+}

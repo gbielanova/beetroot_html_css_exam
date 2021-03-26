@@ -593,6 +593,8 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 80vh;
+    min-height: 750px;
   }
   .page__content {
     width: 100%;
@@ -853,6 +855,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 100%;
   }
   .review-block__photo {
     display: none;
